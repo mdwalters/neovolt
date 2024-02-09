@@ -10,13 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Install dependencies
+      - name: Install WASM dependencies
         run: |
           cargo install trunk --verbose
           rustup target add wasm32-unknown-unknown
-          trunk build --verbose
 
-      - name: Deploy
+      - name: Build website
+        run: trunk build --verbose
+
+      - name: Deploy website
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
