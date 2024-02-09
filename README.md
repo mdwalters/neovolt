@@ -1,2 +1,2 @@
 # rawr
-🐈 The Revolt client of the yet
+The Revolt client of the yet
