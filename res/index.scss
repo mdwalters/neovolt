@@ -12,6 +12,15 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #f66151;
+}
+
+a:visited {
+    color: #f66151;
+}
+
 .container {
     margin: 1rem;
 }
