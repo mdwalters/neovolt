@@ -4,7 +4,7 @@ use yew::prelude::*;
 fn App() -> Html {
     html! {
         <>
-            <h1>{ "rawr" }</h1>
+            <h1>{ "Neovolt" }</h1>
             <p>{ "The cutest Revolt client of the yet" }</p>
         </>
     }
