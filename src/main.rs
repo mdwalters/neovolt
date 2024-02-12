@@ -1,12 +1,28 @@
 use yew::prelude::*;
+use yew_router::prelude::*;
+
+#[path = "home.rs"] mod home;
+use home::Home;
+
+#[derive(Clone, Routable, PartialEq)]
+enum Route {
+    #[at("/neovolt/")]
+    Home
+}
+
+fn switch(route: Route) -> Html {
+    match route {
+        Route::Home => html! { <Home /> }
+    }
+}
+
 
 #[function_component]
 fn App() -> Html {
     html! {
-        <>
-            <h1>{ "Neovolt" }</h1>
-            <p>{ "The cutest Revolt client of the yet" }</p>
-        </>
+        <BrowserRouter>
+            <Switch<Route> render={switch} />
+        </BrowserRouter>
     }
 }
 
