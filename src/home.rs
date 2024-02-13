@@ -21,6 +21,9 @@ pub fn Home() -> Html {
                     <small class="bottom">
                         { "Join the Revolt server: " }
                         <a href="https://rvlt.gg/Qzmc4b5p">{ "rvlt.gg/Qzmc4b5p" }</a>
+                        { " • " }
+                        <a href="https://github.com/mdwalters/neovolt">{ "github.com/mdwalters/neovolt" }</a>
+                        { " • Currently in alpha stage" }
                     </small>
                 </div>
             </div>
