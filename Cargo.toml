@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-reywen = { version = "0.1.28", features = ["wasm"] }
+# reywen = { version = "0.1.28", features = ["wasm"] }
 yew = { version = "0.21.0", features = ["csr"] }
 yew-router = "0.18.0"

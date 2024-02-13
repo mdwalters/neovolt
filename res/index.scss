@@ -38,11 +38,13 @@ a:visited {
 .modal {
     position: relative;
     margin: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     padding: 1rem;
     background-color: #FFDAD9;
     border-radius: 20px;
     flex: 1;
-    max-width: calc(100% - 10rem);
+    max-width: calc(100% - 20rem);
     height: calc(100% - 10rem);
 }
 
