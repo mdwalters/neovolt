@@ -8,7 +8,7 @@ pub fn Home() -> Html {
                 <div class="modal">
                     <h1>{ "Neovolt" }</h1>
                     <p>{ "The cutest Revolt client of the yet" }</p>
-                    <br />
+                    
                     <small class="bottom">
                         { "Join the Revolt server: " }
                         <a href="https://rvlt.gg/Qzmc4b5p">{ "rvlt.gg/Qzmc4b5p" }</a>
