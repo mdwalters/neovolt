@@ -1,7 +1,7 @@
 use yew::prelude::*;
 
 #[function_component]
-pub fn Home() -> Html {
+pub fn Login() -> Html {
     html! {
         <>
             <div class="modal-container">
@@ -15,6 +15,12 @@ pub fn Home() -> Html {
 
                     <h1>{ "Neovolt" }</h1>
                     <p>{ "The cutest Revolt client of the yet" }</p>
+
+                    <br />
+
+                    <input type="email" placeholder="Email..." />
+                    <br /><br />
+                    <input type="email" placeholder="Password..." />
 
                     <small class="bottom">
                         { "Join the Revolt server: " }

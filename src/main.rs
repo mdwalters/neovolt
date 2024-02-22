@@ -1,18 +1,22 @@
 use yew::prelude::*;
 use yew_router::prelude::*;
 
-#[path = "home.rs"] mod home;
-use home::Home;
+#[path = "login.rs"] mod login;
+use login::Login;
 
 #[derive(Clone, Routable, PartialEq)]
 enum Route {
     #[at("/neovolt/")]
-    Home
+    Main,
+
+    #[at("/neovolt/login")]
+    Login
 }
 
 fn switch(route: Route) -> Html {
     match route {
-        Route::Home => html! { <Home /> }
+        Route::Main => html! { <Redirect<Route> to={Route::Login}/> },
+        Route::Login => html! { <Login /> }
     }
 }
 

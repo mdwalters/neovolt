@@ -62,3 +62,17 @@ a:visited {
     max-width: 100%;
     aspect-ratio: 1/1;
 }
+
+input[type=email], input[type=password] {
+    border-style: none;
+    border-radius: 20px;
+    background-color: #FFB3B3;
+    color: #8F4A4B;
+    font-size: 20px;
+    padding: 1rem;
+
+    input[type=email]::placeholder, input[type=password]::placeholder {
+        color: #8F4A4B;   
+        opacity: 0.5; 
+    }
+}
