@@ -3,6 +3,8 @@ use yew_router::prelude::*;
 
 #[path = "login.rs"] mod login;
 use login::Login;
+#[path = "channels.rs"] mod channels;
+use channels::Channels;
 
 #[derive(Clone, Routable, PartialEq)]
 enum Route {
@@ -10,13 +12,17 @@ enum Route {
     Main,
 
     #[at("/neovolt/login")]
-    Login
+    Login,
+    #[at("/neovolt/app")]
+    Channels
 }
 
 fn switch(route: Route) -> Html {
     match route {
         Route::Main => html! { <Redirect<Route> to={Route::Login}/> },
-        Route::Login => html! { <Login /> }
+
+        Route::Login => html! { <Login /> },
+        Route::Channels => html! { <Channels /> }
     }
 }
 

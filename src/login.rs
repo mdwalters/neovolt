@@ -1,4 +1,5 @@
 use yew::prelude::*;
+// use yew_router::prelude::*;
 
 #[function_component]
 pub fn Login() -> Html {
@@ -21,6 +22,8 @@ pub fn Login() -> Html {
                     <input type="email" placeholder="Email..." />
                     <br /><br />
                     <input type="email" placeholder="Password..." />
+
+                    
 
                     <small class="bottom">
                         { "Join the Revolt server: " }
