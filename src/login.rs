@@ -19,9 +19,9 @@ pub fn Login() -> Html {
 
                     <br />
 
-                    <input type="email" placeholder="Email..." />
+                    <input type="email" placeholder="Email..." required=True />
                     <br /><br />
-                    <input type="email" placeholder="Password..." />
+                    <input type="password" placeholder="Password..." required=True />
 
                     
 
