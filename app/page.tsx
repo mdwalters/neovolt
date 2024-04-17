@@ -6,5 +6,6 @@ export default function Home() {
         <>
             <h1>Neovolt</h1>
             <p>The Revolt client of the yet</p>
+        </>
     );
 }
