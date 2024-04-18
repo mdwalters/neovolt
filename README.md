@@ -4,6 +4,7 @@ The cutest Revolt client of the yet
 ```console
 git clone https://github.com/mdwalters/neovolt
 cd neovolt
-trunk serve
+pnpm install
+pnpm dev
 ```
-Go to [`http://localhost:8080/neovolt/`](http://localhost:8080/neovolt/) after the dependencies have been downloaded and compiled, and you should see a login screen.
+Go to [`localhost:3000`](http://localhost:3000/neovolt/) after the dependencies have been installed, and you should see a login screen.
