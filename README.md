@@ -2,7 +2,7 @@
 The cutest Revolt client of the yet
 ## Running
 ```console
-git clone https://github.com/mdwalters/neovolt
+git clone https://github.com/theycallhermax/neovolt
 cd neovolt
 pnpm install
 pnpm dev

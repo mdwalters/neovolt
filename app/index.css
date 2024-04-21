@@ -4,4 +4,20 @@
 
 body {
     margin: 1rem;
+    color: #383A42;
+}
+
+.footer {
+    color: #A1A1A1;
+    position: fixed;
+    bottom: 1rem;
+}
+
+.footer-text, .footer-text:visited {
+    color: #CFD0D1;
+    text-decoration: none;
+}
+
+.footer-text:hover {
+    color: #A1A1A1;
 }
