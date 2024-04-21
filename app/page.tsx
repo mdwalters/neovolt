@@ -8,11 +8,11 @@ const email: string = "";
 const password: string = "";
 
 export default async function Home() {
-    await revolt.login({
+    /* await revolt.login({
         "friendly_name": "Neovolt",
         "email": email,
         "password": password
-    });
+    }); */
 
     return (
         <>
